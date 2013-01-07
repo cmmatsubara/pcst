@@ -1,0 +1,15 @@
+git init -> criou diretorio .git no diretorio atual
+git remote add origin <url> -> adiciona lugar para apontar
+git remote -> lista os remotes
+
+git status
+git add
+git commit
+git log
+
+git fetch <remote> -> verifica se tem diferença entre o que tá lá e o que tá aqui
+
+git push <remote> <branch> -> 2a fase, manda as coisas pra lá de fato
+
+
+
