@@ -7,9 +7,17 @@ git add
 git commit
 git log
 
-git fetch <remote> -> verifica se tem diferença entre o que tá lá e o que tá aqui
+git fetch <remote> -> atualiza as alterações de lá com o FETCH_HEAD
 
 git push <remote> <branch> -> 2a fase, manda as coisas pra lá de fato
 
 
+git checkout <branch> -> muda para a branch
 
+FETCH_HEAD é a branch local espelho do que tá la
+
+
+git merge --ff-only origin/master -> equivalente ao update: pega as coisas do fetch
+git rebase origin/master -> tenta encaixar as divergências
+git mergetool -> para resolver o conflito
+git rebase --continue
